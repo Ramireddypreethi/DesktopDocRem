@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header 
+{
+background-color:orange;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+position: fixed;
+width: 100%;
+
+}
+.navbar
+{
+    width:32%;
+display: flex;
+justify-content: space-evenly;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin:10px ;
+}
+a:hover{
+    background-color: grey;
+    
+}
+.intro
+{
+    background-color:BLACK;
+    height: 400px;
+    color: white;
+    text-align: center;
+     
+    padding-top: 60px;
+
+    font-size: 24px;
+    font-family:'Lucida Sans';
+    display: inline-block;
+    width: 100%;
+    
+    
+}
+.typed
+{ 
+    overflow: hidden;
+    white-space: nowrap; 
+    animation: typing;
+    animation-duration: 3.5s;
+    animation-timing-function: steps(30,end);
+    animation-fill-mode: forwards;
+    color: #D4F1F4;
+    text-align: center;
+    
+}
+@keyframes typing
+{
+    from{width:0%}
+    to{width: 90%}
+}
+.main
+{
+    background-color:#93acd9;
+    height: 1300px;
+    width: 100%;
+}
+.text
+{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-decoration: underline black;
+    padding-right: 40px;
+}
+.child
+{
+    /* background-color: yellow; */
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.box1
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+    
+}
+.quote1
+{
+    width:100%;
+    height:190px;
+    border-radius: 80px;
+   
+}
+.amazon1{
+    width:100%;
+    height:190px;
+    border-radius: 20px;
+}
+.sort1{
+    width:100%;
+    height:190px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+/* .box1 p
+{
+   font-size: 20px;
+    font-family: 'Gill Sans';
+    color:grey;
+} */
+.box2
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+/* .box2 p
+{
+   font-size: 20px;
+    font-family: 'Gill Sans';
+    color:grey;
+} */
+.box3
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+.box3 p
+{
+   font-size: 20px;
+    font-family: 'Gill Sans';
+    color:grey;
+}
+.box3:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.box2:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.box1:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.box4
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+.box4:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.box6
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+.box6:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.box5
+{
+    background-color:white;
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    padding-top: 80px;
+    color: beige;
+}
+.box5:hover{
+  
+    scale: 1.1;
+    transition-duration: 1s;
+}
+.show:hover
+{
+     scale: 1.2;
+    transition-duration: 2s; 
+}
+.footer
+{
+    height: 300px;
+    background-color: black;
+}
+.facebook
+{
+    color:white
+    
+}
+.facebook:hover{
+    margin-top: 20px;
+    
+}
+.github
+{
+    color:white
+}
+.github:hover{
+    margin-top: 20px;
+    
+}
+.linked
+{
+    color:white
+}
+.linked:hover{
+    margin-top: 20px;
+    
+}
+.mail
+{
+    color:white
+}
+.mail:hover{
+    margin-top: 20px;
+    
+}
+.call
+{
+    color:white
+}
+.call:hover
+{
+  margin-top: 20px;
+}
+
+.child1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+ .quote:after 
+{ content:"Quote Generator";
+    
+
+}
+.quote:hover:after
+{
+    /* visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0; */
+    content: "<Quote Generator/>";
+}
+.weather:after 
+{ content:"Weather App";
+    
+}
+.weather:hover:after
+{
+    
+    content: "<Weather App/>";
+}
+.countries:after 
+{ content:"Countries App";
+    
+}
+.countries:hover:after
+{
+    
+    content: "<Countries App/>";
+}
+.amazon:after 
+{ content:"Amazon CSS Clone";
+    
+}
+.amazon:hover:after
+{
+    
+    content: "<Amazon CSS Clone/>";
+}
+.sort:after 
+{ content:"Sorting Visualizer";
+    
+}
+.sort:hover:after
+{
+    
+    content: "<Sorting Visualizer/>";
+}
+.calc:after 
+{ content:"Calculator";
+    
+}
+.calc:hover:after
+{
+    
+    content: "<Calculator/>";
+}
